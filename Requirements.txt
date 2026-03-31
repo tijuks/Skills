@@ -1,0 +1,6 @@
+numpy
+pandas
+requests
+pytest
+flake8
+pylint
