@@ -545,7 +545,7 @@ messages:
       Stripe's primary backend object fo
   - role: user
     content: 'Pull out the action items from this meeting transcript: {{input}}'
-model: openai/gpt-4o
+model: meta/llama-3.3-70b-instruct
 modelParameters:
   max_tokens: 4096
 testData:
@@ -556,3 +556,7 @@ evaluators:
     string:
       strict: true
       contains: Users
+  - name: Stc1
+    string:
+      strict: true
+      contains: String check1
