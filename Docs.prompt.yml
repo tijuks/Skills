@@ -545,6 +545,10 @@ messages:
       Stripe's primary backend object fo
   - role: user
     content: 'Pull out the action items from this meeting transcript: {{input}}'
+  - role: assistant
+    content: 'Héllo customer of id .... How mày i assist you following your query '
+  - role: user
+    content: Iam having problemß with my subscriptions
 model: meta/llama-3.3-70b-instruct
 modelParameters:
   max_tokens: 4096
