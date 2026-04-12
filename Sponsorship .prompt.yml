@@ -1,0 +1,6 @@
+messages:
+  - role: system
+    content: Explain the problem the user queried
+  - role: user
+    content: What's wrong with my billing account
+model: openai/gpt-4o
